@@ -1,0 +1,45 @@
+/* Percentage (%) */
+.parent {
+    background-color: aqua;
+    width: 50vmax;  
+    height: 25vh;  
+}
+.child {
+    background-color: lightcoral;
+    width: 50%;
+    height: 100%;
+}
+
+/* Viewport width (vw) */
+/* 1vw = 1% of full width */
+
+/* Viewport height (vh) */
+/* 1vh = 1% of full height */
+
+/* Viewport minimum (vmin) */
+/* width = 900px, height = 1000px */
+/* 1vmin = 1% of min(width or height) */
+
+/* Viewport maximum (vmax) */
+/* 1vmax = 1% of max(width or height) */
+
+
+/* (em) and (rem) */
+
+body {
+    font-size: 20px;
+}
+.container {
+    font-size: 1.5em; 
+}
+.nested {
+    font-size: 0.5em;
+}
+
+.rem-example {
+    font-size: 2rem;
+}
+
+
+
+

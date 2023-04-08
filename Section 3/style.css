@@ -1,0 +1,57 @@
+/* Font */
+p {
+    /* font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic; */
+    font: italic 600 20px/1.5 Arial, sans-serif;
+}
+
+/* Text */
+h2 {
+    background-color: antiquewhite;
+    color: red;
+    /* color: rgb(255, 0, 0); */
+    /* color: #ff2600; */
+    /* color: hsl(9, 100%, 50%); */
+    /* color: rgba(255, 0, 0, 0.9); */
+    /* color: hsla(9, 100%, 50%, 0.6); */
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    text-shadow: 2px 4px 4px rgba(255, 0, 0, 0.5);
+}
+
+
+/* Background properties */
+body {
+    /* background-color: antiquewhite;
+    background-image: url("/contents/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover; */
+
+    /* background: antiquewhite url("/contents/bg.jpg") no-repeat center top / cover; */
+}
+
+/* Box Model (margin, padding, border, width, height) */
+h2 {
+    /* margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px; */
+    margin: 40px 20px 20px 40px;  /*top right bottom left*/
+    padding: 40px 20px 20px 40px;
+
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    border-left: 1px solid green;
+    border-top-right-radius: 10px;
+
+    width: 350px;
+    height: 200px;
+}
+
+

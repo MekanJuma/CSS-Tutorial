@@ -1,0 +1,65 @@
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: renkiUytgeyan;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes renkiUytgeyan {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+.rotate-box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 50px;
+    animation: ayla 4s linear infinite;
+}
+
+@keyframes ayla {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.moving-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 20px;
+    animation: hereketEt 2s ease-in-out infinite;
+}
+
+
+@keyframes hereketEt {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: scale(1.4) translateX(300px);
+        background-color: green;
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+

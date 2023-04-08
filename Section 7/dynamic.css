@@ -1,0 +1,45 @@
+/* Variables */
+:root {
+    --main-color: #f1f1f1;
+    --parent-bg-color: purple;
+    --child-bg-color: green;
+}
+
+/* calc() */
+.parent {
+    width: 500px;
+    height: 200px;
+    /* padding: 20px; */
+    background-color: var(--parent-bg-color);
+}
+.child {
+    width: calc(50% + 100px);
+    height: 200px;
+    background-color: var(--child-bg-color);
+}
+
+/* min() and max() */
+.minmax {
+    margin-top: 20px;
+    width: max(50%, 500px);
+    height: 200px;
+    background-color: teal;
+}
+
+/* clamp() */
+.clamped {
+    margin-top: 20px;
+    width: clamp(300px, 50%, 400px);
+    height: 200px;
+    background-color: coral;
+}
+
+/* attr() */
+.attr-example {
+    margin: 50px;
+}
+.attr-example::before {
+    content: attr(my-data);
+    font-size: 1.5em;
+    color: red;
+}

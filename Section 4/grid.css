@@ -1,0 +1,31 @@
+/* grid parent */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 70px);
+    grid-template-areas: 
+    "top top top"
+    "child2 child3 child3"
+    ;
+    gap: 10px;
+    height: 300px;
+}
+
+/* grid child */
+.grid-item {
+    background-color: aqua;
+    text-align: center;
+}
+.item1 {
+    grid-area: top;
+}
+.item2 {
+    grid-area: child2;
+}
+.item3 {
+    grid-area: child3;
+}
+/* .item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */

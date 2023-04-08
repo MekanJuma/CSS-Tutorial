@@ -1,0 +1,90 @@
+/* Element selector */
+h2 {
+    color: green;
+}
+
+/* Class selector */
+.p1 {
+    color: blue;
+}
+
+/* Id selector */
+#p2 {
+    font-weight: bold;
+}
+
+/* Attribute selector */
+li[myattr="css_dersi"] {
+    list-style: none;
+}
+
+/* pseudo-class */
+a:hover {
+    color: red;
+}
+/* a:visited {
+    color: green;
+} */
+
+.p1:hover {
+    color: red;
+}
+
+.p1:first-letter {
+    color: orange;
+}
+
+/* pseudo-element */
+.p1::before {
+    content: "Important: ";
+    font-weight: bold;
+    color: red;
+}
+
+/* li:first-child {
+    list-style: none;
+}
+
+li:first-child a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+} */
+
+
+/* li:last-child {
+    list-style: none;
+}
+
+li:last-child a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+} */
+
+li:nth-child(3n+1) {
+    list-style: none;
+}
+li:nth-child(3n+1) a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+/* Descendant combinator */
+/* div p {
+    color: red;
+} */
+
+/* Child combinator */
+div > p {
+    color: red;
+}
+/* Adjacent sibling combinator */
+h2 + p {
+    background-color: orange;
+}
+/* General sibling combinator */
+h2 ~ p {
+    background-color: blue;
+}

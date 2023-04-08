@@ -1,0 +1,79 @@
+/* Position */
+.container {
+    position: relative;
+    background-color: lightblue;
+    height: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.static-box,
+.relative-box,
+.absolute-box,
+.fixed-box,
+.sticky-box
+{
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.static-box {
+    /* position: static; */
+    background-color:darkblue;
+}
+.relative-box {
+    background-color: darkgoldenrod;
+    position: relative; /*top, left, bottom, right*/
+    left: 20px;
+    top: -20px;
+}
+.absolute-box {
+    background-color: darkgreen;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.fixed-box {
+    background-color: darkred;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
+.sticky-container {
+    height: 50px;
+    background-color: lightgrey;
+    margin-bottom: 20px;
+}
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background-color: darkorchid;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.content p {
+    margin: 0;
+    padding: 20px;
+    background-color: lightgray;
+    border-bottom: 1px solid #ccc;
+}
+/* float */
+.content-img {
+    width: 100%;
+}
+img {
+    float: left;
+    width: 350px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+/* display */
+
+/* Flex */
+/* Grid */

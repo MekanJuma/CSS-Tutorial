@@ -1,0 +1,33 @@
+.container {
+    background-color: lightblue;
+    width: 50vw;
+    height: 50vh;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.container p {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .container {
+        background-color: lightgreen;
+        width: 70vw;
+        height: 50vh;
+        padding: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        background-color: lightcoral;
+        width: 100vh;
+        height: 50vh;
+        padding: 20px;
+        font-size: 23px;
+    }
+}
